@@ -1,0 +1,14 @@
+/* Hover effects for the card group */
+.group-card:hover .group-hover-opacity-50 {
+  opacity: 0.5;
+}
+
+.group-card:hover .group-hover-opacity-100 {
+  opacity: 1;
+}
+
+/* Optional: smooth transition for all animated elements */
+.group-hover-opacity-50,
+.group-hover-opacity-100 {
+  transition: opacity 0.5s;
+}
